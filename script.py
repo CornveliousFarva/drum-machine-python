@@ -15,4 +15,8 @@ gray = (128, 128, 128)
 # Screen setup, visible title, and font
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 pygame.display.set_caption('Beat Maker')
-label_font = pygame.font.Font('#helvetica.ttf')
+label_font = pygame.font.Font('helvetica.ttf', 28)
+
+# Frame speed and timer
+FPS = 60
+timer = pygame.time.Clock()
