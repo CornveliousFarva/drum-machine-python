@@ -20,3 +20,15 @@ label_font = pygame.font.Font('helvetica.ttf', 28)
 # Frame speed and timer
 FPS = 60
 timer = pygame.time.Clock()
+
+# While loop for when the program is running
+run = True
+while run:
+    timer.tick(FPS)
+    screen.fill(black)
+
+    # Event handling
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
