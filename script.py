@@ -12,6 +12,10 @@ black = (0, 0, 0)
 white = (255, 255, 255)
 gray = (128, 128, 128)
 
+# Beate when the program starts
+actiive_length = 0
+active_beat = 0
+
 # Screen setup, visible title, and font
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 pygame.display.set_caption('Beat Maker')
